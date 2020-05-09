@@ -1,0 +1,30 @@
+alonit
+Student Alon Itach (301790515)
+EX: 2
+
+FILES:
+uthreads.cpp -- implementation of uthreads.h
+Makefile -- to build
+
+
+REMARKS:
+
+
+ANSWERS:
+
+Theoretical Questions:
+
+1. WhatsApp - you want to download a video while chatting with the person who sent the video.
+    it's reasonable to be able to chat while downloading a video,
+    but doing it using two different processes it's a bad idea because the processes are sharing
+    a lot of information.
+
+2. The main advantage is security, especially when browsing sensitive information.
+    The disadvantage is performance of course. typical user expect to be able to open
+    multiple tabs without feeling that the browser is getting slower.
+
+4. Real-time as the name hints - the elapsed processing time in reality. Usage example -
+   trigger some signal in the program, when the real time elapsed is important, e.g. in Iron Dome program
+
+   Virtual time counts the processor time used by the process. Usage example -
+   profiling performance of program.

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ex2th.dir/uthreads.cpp.o  -o ex2th 

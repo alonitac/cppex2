@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuthreads.a  CMakeFiles/uthreads.dir/uthreads.cpp.o
+/usr/bin/ranlib libuthreads.a
