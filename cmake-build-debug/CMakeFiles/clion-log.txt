@@ -2,20 +2,13 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/alon/Documents/studies/Computer science/OS/ex2th/cmake-build-debug/tests/googletest-download
-Scanning dependencies of target googletest
-[ 11%] Creating directories for 'googletest'
-[ 22%] Performing download step (git clone) for 'googletest'
-Cloning into 'googletest-src'...
-Already on 'master'
-Your branch is up to date with 'origin/master'.
-[ 33%] No patch step for 'googletest'
-[ 44%] Performing update step for 'googletest'
+[ 11%] Performing update step for 'googletest'
 Current branch master is up to date.
-[ 55%] No configure step for 'googletest'
-[ 66%] No build step for 'googletest'
-[ 77%] No install step for 'googletest'
-[ 88%] No test step for 'googletest'
-[100%] Completed 'googletest'
+[ 22%] No configure step for 'googletest'
+[ 33%] No build step for 'googletest'
+[ 44%] No install step for 'googletest'
+[ 55%] No test step for 'googletest'
+[ 66%] Completed 'googletest'
 [100%] Built target googletest
 -- Configuring done
 -- Generating done

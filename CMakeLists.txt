@@ -5,6 +5,7 @@ project(threads VERSION 1.0 LANGUAGES C CXX)
 
 add_library(uthreads uthreads.h uthreads.cpp)
 
+
 set_property(TARGET uthreads PROPERTY CXX_STANDARD 11)
 target_compile_options(uthreads PUBLIC -Wall -Wextra)
 

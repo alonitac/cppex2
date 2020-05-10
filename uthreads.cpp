@@ -83,16 +83,15 @@ public:
 
             address_t sp;
             sp = (address_t)(stack) + STACK_SIZE - sizeof(address_t);
-            sigsetjmp(env, 1);
+            sigsetjmp(env, 0);
             (env->__jmpbuf)[JB_SP] = translate_address(sp);
-
             state = RUNNING;
         } else {
 
             address_t sp, pc;
             sp = (address_t)(stack) + STACK_SIZE - sizeof(address_t);
             pc = (address_t)f;
-            sigsetjmp(env, 1);
+            sigsetjmp(env, 0);
             (env->__jmpbuf)[JB_SP] = translate_address(sp);
             (env->__jmpbuf)[JB_PC] = translate_address(pc);
         }
@@ -220,7 +219,7 @@ public:
     void switch_th(bool self_term = false)
     {
         if (!self_term) {
-            int ret_val = sigsetjmp(threads[current_tid]->env,1);
+            int ret_val = sigsetjmp(threads[current_tid]->env, 0);
             if (ret_val == 1) {
                 return;
             }
@@ -396,6 +395,7 @@ void timer_handler(int sig)
 
 int uthread_init(int *quantum_usecs, int size) {
     sa.sa_handler = &timer_handler;
+    sigemptyset (&sa.sa_mask);
 
     if (sigaction(SIGVTALRM, &sa, nullptr) < 0) {
         std::cerr << "system error: sigaction failed" << std::endl;
