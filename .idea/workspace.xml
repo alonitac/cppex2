@@ -17,16 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b01ec0a-7482-4467-86dd-d806a6cc173e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libuthreads.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libuthreads.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests/theTests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests/theTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uthreads.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/uthreads.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/uthreads.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/uthreads.dir/uthreads.cpp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +34,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uthreads.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="397" selection-start-line="397" selection-end-line="397" />
+            <state relative-caret-position="216">
+              <caret line="389" column="26" lean-forward="true" selection-start-line="389" selection-start-column="26" selection-end-line="389" selection-end-column="26" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -62,11 +55,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="-3423">
               <caret line="307" column="3" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,7 +109,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tests" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,8 +182,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.Test4.StressTestAndThreadCreationOrder">
-    <configuration name="DISABLED_Test5.TimesAndPriorities" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="threads" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="threads" RUN_TARGET_NAME="theTests" TEST_CLASS="DISABLED_Test5" TEST_METHOD="TimesAndPriorities" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.Test6.RandomThreadOperations">
+    <configuration name="Test1.BasicFunctionality" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="threads" TARGET_NAME="theTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="threads" RUN_TARGET_NAME="theTests" TEST_CLASS="Test1" TEST_METHOD="BasicFunctionality" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -254,19 +250,19 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.theTests" />
-      <item itemvalue="Google Test.Test3.ThreadExecutionOrder" />
       <item itemvalue="Google Test.Test4.StressTestAndThreadCreationOrder" />
-      <item itemvalue="Google Test.Test6.RandomThreadOperations" />
+      <item itemvalue="Google Test.Test1.BasicFunctionality" />
       <item itemvalue="Google Test.Test2.ThreadSchedulingWithTermination" />
-      <item itemvalue="Google Test.DISABLED_Test5.TimesAndPriorities" />
+      <item itemvalue="Google Test.Test3.ThreadExecutionOrder" />
+      <item itemvalue="Google Test.Test6.RandomThreadOperations" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.Test4.StressTestAndThreadCreationOrder" />
-        <item itemvalue="Google Test.DISABLED_Test5.TimesAndPriorities" />
         <item itemvalue="Google Test.Test6.RandomThreadOperations" />
+        <item itemvalue="Google Test.Test4.StressTestAndThreadCreationOrder" />
         <item itemvalue="Google Test.Test3.ThreadExecutionOrder" />
         <item itemvalue="Google Test.Test2.ThreadSchedulingWithTermination" />
+        <item itemvalue="Google Test.Test1.BasicFunctionality" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +279,7 @@
       <workItem from="1588693667908" duration="30501000" />
       <workItem from="1588949767404" duration="28119000" />
       <workItem from="1589121862384" duration="2439000" />
-      <workItem from="1589126502074" duration="4528000" />
+      <workItem from="1589126502074" duration="4802000" />
     </task>
     <task id="LOCAL-00001" summary="d">
       <created>1589126620668</created>
@@ -292,25 +288,17 @@
       <option name="project" value="LOCAL" />
       <updated>1589126620668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="d">
+      <created>1589131737996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589131737996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 19h 43m 44s.xml">
-      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 13m 40s.xml">
-      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 13m 55s.xml">
-      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 15m 35s.xml">
-      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 16m 22s.xml">
-      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 20m 51s.xml">
       <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -326,9 +314,24 @@
     <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 28m 14s.xml">
       <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="Test1_BasicFunctionality - 2020.05.10 at 20h 32m 34s.xml">
+      <configuration name="Test1.BasicFunctionality" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test2_ThreadSchedulingWithTermination - 2020.05.10 at 20h 32m 39s.xml">
+      <configuration name="Test2.ThreadSchedulingWithTermination" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test3_ThreadExecutionOrder - 2020.05.10 at 20h 32m 46s.xml">
+      <configuration name="Test3.ThreadExecutionOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test4_StressTestAndThreadCreationOrder - 2020.05.10 at 20h 32m 52s.xml">
+      <configuration name="Test4.StressTestAndThreadCreationOrder" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Test6_RandomThreadOperations - 2020.05.10 at 20h 33m 03s.xml">
+      <configuration name="Test6.RandomThreadOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65587000" />
+    <option name="totallyTimeSpent" value="65861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -339,7 +342,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4267101" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4267101" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40716612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -508,17 +511,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp">
+    <entry file="file://$PROJECT_DIR$/uthreads.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="307" column="3" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
+        <state relative-caret-position="216">
+          <caret line="389" column="26" lean-forward="true" selection-start-line="389" selection-start-column="26" selection-end-line="389" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uthreads.cpp">
+    <entry file="file://$PROJECT_DIR$/tests/tests_to_be_ran_separately.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="397" selection-start-line="397" selection-end-line="397" />
+        <state relative-caret-position="-3423">
+          <caret line="307" column="3" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

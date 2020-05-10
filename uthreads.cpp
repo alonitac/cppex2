@@ -219,7 +219,7 @@ public:
     void switch_th(bool self_term = false)
     {
         if (!self_term) {
-            int ret_val = sigsetjmp(threads[current_tid]->env, 0);
+            int ret_val = sigsetjmp(threads[current_tid]->env, 1);
             if (ret_val == 1) {
                 return;
             }

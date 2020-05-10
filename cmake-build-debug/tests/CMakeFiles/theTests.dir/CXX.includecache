@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../tests/../uthreads.h
+../uthreads.h
 
 /home/alon/Documents/studies/Computer science/OS/ex2th/tests/tests_to_be_ran_separately.cpp
 uthreads.h
